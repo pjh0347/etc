@@ -5,3 +5,8 @@ au BufNewFile,BufRead *.py
     \ set noexpandtab |
     \ set autoindent |
     \ set fileformat=unix |
+
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
+
