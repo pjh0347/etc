@@ -3,9 +3,12 @@ au BufNewFile,BufRead *.py
     \ set softtabstop=4 |
     \ set shiftwidth=4 |
     \ set autoindent |
+    \ set smartindent |
+    \ set cindent |
+    \ set cinkeys-=0# |
+    \ set indentkeys-=0# |
     \ set fileformat=unix |
     \ set smarttab |
-    \ set smartindent |
     \ set expandtab
 "    \ set noexpandtab
 
