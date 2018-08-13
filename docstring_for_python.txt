@@ -1,3 +1,5 @@
+
+
 """
 Summary line.
 
@@ -16,3 +18,21 @@ int
 	Description of return value
 
 """
+
+def test(i, s, o):
+        """
+        Summary line.
+
+        Extended description of function.
+
+        >>> class Test(): pass
+        >>> test(123, 'abc', Test())
+
+        :param int i: description ...
+        :param string s: description ...
+        :param o: description ...
+        :type o: :class:`Test`
+        :return: description ...
+        :rtype: str
+        :raise Exception: description ...
+        """
