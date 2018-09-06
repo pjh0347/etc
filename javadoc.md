@@ -1,4 +1,21 @@
 
+ - code example
+```
+* <pre>
+* {@code
+* Set<String> s;
+* System.out.println(s);
+* }
+* </pre>
+```
+
+ - interface implement
+```
+	/**
+	 * {@inheritDoc}
+	 */
+```
+
  - method
 ```
   /**
