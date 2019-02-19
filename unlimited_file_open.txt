@@ -1,0 +1,19 @@
+
+# 전역 설정
+vim /etc/sysctl.conf
+fs.file-max = 500000
+
+# 전역 적용
+sysctl -p
+
+# 계정별 설정
+vim /etc/security/limits.conf
+계정  soft    nofile  500000
+계정  hard    nofile  500000
+
+# 계정별 적용
+exit & login
+
+# 계정별 확인
+ulimit -Hn
+ulimit -Sn
