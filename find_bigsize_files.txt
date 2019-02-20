@@ -1,0 +1,1 @@
+du -Sm /path | sort -n
