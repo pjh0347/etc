@@ -18,3 +18,5 @@ endif
 
 colo desert
 syntax on
+
+set viminfo='50,<1000,s100,h
